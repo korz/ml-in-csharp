@@ -1,0 +1,173 @@
+ML in C#
+
+Abstract
+	ML is all the rage these days, however all of the tooling seems to be only for Python developers. There are actually some good tools and frameworks that can allow you to do this kind of work within C#. We'll show you the tools and techniques by using examples of classification, regression, natural language processing, clustering, and neural networks to help do ML within C#.
+
+	TDevConf
+	ML is all the rage these days. However, all of the tooling seems to be only for Python developers. There are actually some good tools and frameworks that can allow you to do this kind of work within C#. We’ll look at the tools, the techniques, and several different ML examples.
+
+Tools
+	Libraries
+		ML.NET - https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet
+		According to Microsoft - https://dotnet.microsoft.com/apps/machinelearning-ai
+		.NET for Apache Spark
+		Cognitive Services
+		Azure Machine Learning
+		SciSharp
+			TensorFlow.NET
+			Keras.NET
+			Torch.NET
+			NumSharp & Numpy.Net
+			SharpCV
+			Pandas.Net
+			scikit-learn.net
+			MatplotlibCS
+			TorchSharp
+
+Techniques
+	Classification
+	Regression
+	NLP
+	Clustering
+	Neural Networks
+
+Several ML examples
+	Classification
+	Regression
+	NLP
+	Clustering
+	Neural Networks
+
+TDevConf
+	October 3rd
+	30-45 minute talk
+
+Examples
+	SharpCV - C:\Code\ThrowAway\SharpCvTesting
+
+
+Links
+	machine learning in C#
+	ML.NET - https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet
+	ML in C# Offerings from Microsoft - https://dotnet.microsoft.com/apps/machinelearning-ai
+	SciSharp STACK - https://scisharp.github.io/SciSharp/
+	Keras.Net - https://github.com/SciSharp/Keras.NET
+	Keras.Net Issue - https://github.com/SciSharp/Keras.NET/issues/6
+	anaconda install path on windows +google
+	what is the difference between conda and anaconda +google
+	use keras2onnx in "keras.net" +google
+	Protocol Buffers in C# - https://developers.google.com/protocol-buffers/docs/csharptutorial
+	https://en.wikipedia.org/wiki/Protocol_Buffers
+	is protobuf analogous to json +google
+	onnxruntime load session from string +google
+	onnxmltools documentation +google
+	Keras.Net unable to load python36 - https://github.com/pythonnet/pythonnet/issues/871
+	Apache 2.0 License - https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)
+	TensorFlow.Net - https://github.com/SciSharp/TensorFlow.NET
+	ML.NET Model Persistence - https://docs.microsoft.com/en-us/dotnet/machine-learning/how-to-guides/save-load-machine-learning-models-ml-net
+
+	ONNX API
+		Gallery of Samples - https://microsoft.github.io/onnxruntime/python/auto_examples/index.html
+		Load and Predict with Runtime - https://microsoft.github.io/onnxruntime/python/auto_examples/plot_load_and_predict.html#sphx-glr-auto-examples-plot-load-and-predict-py
+		Common Errors with Runtime - https://microsoft.github.io/onnxruntime/python/auto_examples/plot_common_errors.html
+
+
+	
+	TensorFlowSharp - https://github.com/migueldeicaza/TensorFlowSharp
+	Encog - https://www.heatonresearch.com/encog/
+	numl - http://numl.net/
+	numl GitHub - https://github.com/sethjuarez/numl
+	Environments in Azure ML - https://docs.microsoft.com/en-us/azure/machine-learning/how-to-use-environments#use-conda-and-pip-specification-files
+
+Azure Portal - https://portal.azure.com/
+Azure AutoML - https://ml.azure.com/automl
+Create Classification Model with Azure ML - https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-first-experiment-automated-ml
+
+
+
+
+C:\Code\ThrowAway\NetCore31Testing\NetCore31Testing
+C:\Code\Talks\MachineLearningCSharp\src\C#
+C:\Code\Talks\MachineLearningCSharp\src\Python
+C:\Code\ThrowAway\SharpCvTesting
+
+C:\Code\ThrowAway\MlNetTesting
+C:\Code\ThrowAway\MlNetTesting\MlNetTesting\Data
+C:\Users\KORZ\Downloads\machinelearning-samples-master\machinelearning-samples-master\samples\csharp\getting-started\Regression_TaxiFarePrediction\TaxiFarePrediction\Data
+
+
+C:\Code\Python\Iris\C#
+C:\Code\Python\Real Estate Price Prediction
+
+C:\Code\Talks\MachineLearningCSharp\Slides.pptx
+
+
+C:\Code\Python\Iris\C#\src\GenericTabularModelCreator
+
+Expenses 3-9-2020.xlsx
+
+LinqPad
+	C:\Code\Python\Real Estate Price Prediction\Script.linq
+	C:\Code\Python\Iris\C#\DataDescription.linq
+
+VS Code
+	C:\Code\Talks\MachineLearningCSharp\src\Python
+		xor.py
+		xorOnnx.py
+	C:\Code\Python\Iris\lib
+		iris.py
+		genericModel.py
+		irisModel.py
+	C:\Code\Python\Groundspeed ML Eng Take Home 06192019\v1\src
+
+RocketChat
+Chrome
+
+
+SciSharp.TensorFlow.Redist
+SciSharp.TensorFlow.Redist-Windows-GPU
+
+
+Install Azure CLI
+	https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?view=azure-cli-latest&tabs=azure-powershell	
+	Invoke-WebRequest -Uri https://aka.ms/installazurecliwindows -OutFile .\AzureCLI.msi; Start-Process msiexec.exe -Wait -ArgumentList '/I AzureCLI.msi /quiet'; rm .\AzureCLI.msi
+
+	MSI - https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?view=azure-cli-latest&tabs=azure-cli
+
+Deploy Model to Azure ML
+	See list of workspaces - az ml workspace list
+
+
+	az ml model deploy -m XorOnnx:1 -w KorzXor -g Korz -n XorOnnx --ic inferenceConfig.json --dc deploymentconfig.json
+
+
+
+Definitions
+	Conda and Anaconda - conda is a package manager and Anaconda is a distribution of that package manager
+
+	Protobuf - is a method of serializing structured data, so that applications can communicate with each other over a wire or for storing data
+		https://en.wikipedia.org/wiki/Protocol_Buffers
+
+
+
+TensorFlow.Net - https://github.com/SciSharp/TensorFlow.NET
+ML.NET - https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet
+	ML in C# Offerings from Microsoft - https://dotnet.microsoft.com/apps/machinelearning-ai
+	SciSharp STACK - https://scisharp.github.io/SciSharp/
+	Keras.Net - https://github.com/SciSharp/Keras.NET
+Numpy.NET - https://github.com/SciSharp/Numpy.NET
+SharpCV - https://github.com/SciSharp/SharpCV
+NumSharp - https://github.com/SciSharp/NumSharp
+NumSharp.Lite - https://github.com/SciSharp/NumSharp.Lite
+Pandas.NET - https://github.com/SciSharp/Pandas.NET
+Torch.NET - https://github.com/SciSharp/Torch.NET
+PillowSharp - https://github.com/SciSharp/PillowSharp
+Matplotlib.Net - https://github.com/SciSharp/Matplotlib.Net
+scikit-learn.net - https://github.com/SciSharp/scikit-learn.net
+Anaconda - https://docs.anaconda.com/anaconda/install/windows/
+ONNX - https://onnx.ai/
+ONNX Runtime - https://microsoft.github.io/onnxruntime/
+ML.NET - https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet
+ML.NET Walkthrough - https://dotnet.microsoft.com/learn/ml-dotnet/what-is-mldotnet
+ML.NET AutoML Article - https://visualstudiomagazine.com/articles/2019/09/30/automl-mlnet.aspx
+

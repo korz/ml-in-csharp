@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{lipsum}
+
+\newcommand{\lto}{\mathbin{\to}}
+
+\begin{document}
+
+\begin{tabular}{ c c c }
+  $p$ & $q$ & $p \oplus q$ \\
+  \hline 
+  1 & 1 & 0 \\
+  1 & 0 & 1 \\
+  0 & 1 & 1 \\
+  0 & 0 & 0 \\
+\end{tabular}
+
+%\begin{tabular}{c*{2}{c}}
+%\multicolumn{2}{c}{%
+%  $\overbrace{\hphantom{(p\lto q)}}^{\textbf{features}}$%
+%}
+%&
+%\multicolumn{1}{c}{%
+%  $\overbrace{\hphantom{(p \oplus q)}}^{\textbf{labels}}$%
+%}\\[-1ex]
+%$p$ & $q$ & $p \oplus q$ \\
+%\hline
+%1 & 1 & 0 \\
+%  1 & 0 & 1 \\
+%  0 & 1 & 1 \\
+%  0 & 0 & 0 \\
+%\end{tabular}
+
+
+
+\end{document}

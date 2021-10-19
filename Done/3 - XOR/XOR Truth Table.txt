@@ -1,0 +1,10 @@
+% https://www.codecogs.com/latex/eqneditor.php
+
+\begin{tabular}{ c c c }
+  $p$ & $q$ & $p \oplus  q$ \\
+  \hline 
+  T & T & F \\
+  T & F & T \\
+  F & T & T \\
+  F & F & F \\
+\end{tabular}
