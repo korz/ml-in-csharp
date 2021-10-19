@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net462;netcoreapp3.1</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="lib\**" />
+    <EmbeddedResource Remove="lib\**" />
+    <None Remove="lib\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Keras.NET" Version="3.7.3" />
+    <PackageReference Include="Microsoft.ML.OnnxRuntime" Version="1.4.0" />
+    <PackageReference Include="pythonnet_netstandard_py37_win" Version="2.5.1" />
+    <PackageReference Include="SciSharp.TensorFlow.Redist" Version="2.3.0" />
+  </ItemGroup>
+
+</Project>

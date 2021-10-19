@@ -1,0 +1,4 @@
+{
+    "entryScript": "entry.py",
+    "sourceDirectory": "./working_dir"
+}
